@@ -7,7 +7,7 @@ A Next.js-based frontend application for the Attack Capital assignment.
 1. Clone the repository:
 
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/shishirkj/attack_capital_frontend
 cd attack-capital-assignment-frontend
 ```
 
@@ -26,7 +26,7 @@ NEXT_PUBLIC_API_URL=https://attack-capital-backend.onrender.com
 > **Note**: If the remote server fails, you can run the server locally and update the `.env.local` file to:
 >
 > ```bash
-> NEXT_PUBLIC_API_URL=http://localhost:3001
+> NEXT_PUBLIC_API_URL=http://localhost:4000
 > ```
 
 4. Run the development server:
@@ -87,14 +87,6 @@ The frontend communicates with a REST API backend. The base URL is configured th
 - Comprehensive error messages
 - Form validation
 - API error handling with user-friendly messages
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
